@@ -674,7 +674,7 @@ class AggregationTests(TestCase):
         )
 
         # Regression for #10182 - Queries with aggregate calls are correctly
-        # realiased when used in a subquery
+        # released when used in a subquery
         ids = (
             Book.objects
             .filter(pages__gt=100)
